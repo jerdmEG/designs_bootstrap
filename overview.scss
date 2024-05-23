@@ -1,0 +1,33 @@
+@mixin chartCircles($bg:gray){
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $bg;
+};
+.billableColor{
+    @include chartCircles(cyan);
+}
+.nonbillableColor{
+@include chartCircles();
+}
+
+section{
+    p,button{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.font-16{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;    
+}
+.info-card{
+    background: rgb(194,194,196);
+background: linear-gradient(90deg, rgba(194,194,196,1) 13%, rgba(86,169,210,1) 33%, rgba(163,163,164,1) 51%, rgba(35,37,88,1) 69%, rgba(235,235,235,1) 100%);  
+}
+.childCont{
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(43px);
+}
+}

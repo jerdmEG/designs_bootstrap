@@ -1,0 +1,107 @@
+sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+   
+    .nav-link {
+      color: black;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      text-decoration: none;
+   
+      hr {
+        margin: 0;
+        border-top: 1px solid black;
+      }
+    }
+   
+    .bottom-links {
+      margin-top: auto;
+    }
+  }
+  sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+  }
+   
+  .nav-link {
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+   
+  .nav-link hr {
+    margin: 0;
+    border-top: 1px solid black;
+  }
+   
+  .bottom-links {
+    margin-top: auto;
+  }
+   
+  .logo-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+   
+  .logo-container img {
+    height: 30px; /* Adjust as needed */
+    margin-right: 10px; /* Add space between logo and text */
+  }
+   
+  .legal-solution {
+    font-weight: bold;
+    padding: 10px;
+  }
+  .pass{
+    border-left: 3px solid rgb(137, 179, 243);
+    height: 25px;
+  }
+  .form-control.fw-bold {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+}
+.textarea-container {
+  position: relative;
+}
+
+.icon-container {
+  position: absolute;
+  bottom: 25px; /* Adjust the distance from the bottom as needed */
+  right: 5px; /* Adjust the distance from the right as needed */
+}
+
+.icon-container i {
+  border-radius: 50%; /* Ensure your icon is round */
+  background-color: #fff; /* Match this with the background color of the textarea */
+  padding: 5px; /* Adjust as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to the icon if desired */
+}
+
+.plusbtn i{
+  border-radius: 50%; /* Ensure your icon is round */
+  background-color: #3a0a0a; /* Match this with the background color of the textarea */
+  padding: 2px; /* Adjust as needed */
+  box-shadow: px 0px 4px rgba(0, 0, 0, 0.1); 
+  background-color: #fff;
+  size: 3px;
+}
+.logo{
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
+  height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.aaa {
+  font-size: 1.5rem;
+}
