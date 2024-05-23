@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="check.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-B5i2Fh3CRr/i9PMTRs2C5lVQCLGjgKfik3Myvd8pCWt59/kK8ZZxm1GsiBxjAuYoh82NZaG37Bu9TrZoi2g62g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    /* Custom styles */
+    .small-column {
+      border-right: 2px solid #ddd; 
+    }
+    
+    .big-column img {
+      max-width: 100%;
+      height: auto;
+    }
+   .abc{
+    position: absolute;
+    top: -20px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+   }
+   .modal-sm {
+    max-width: 350px; 
+    margin-top: 70px;
+    margin-left: 320px;
+    overflow: hidden;
+}
+.card{
+        background-color: white;
+        border: none;
+        box-shadow: 0 4px 10px -2px gray;
+        margin-bottom: 15px;
+        margin-left: 0px;
+    }
+ 
+    .col-c{
+      border-left: 5px solid rgb(207, 158, 87);
+      border-radius: 0.5%;
+    }
+ 
+    .col-c1{
+      border-left: 5px solid rgb(163, 202, 233);
+      border-radius: 0.5%;
+    }
+
+
+
+
+  </style>
+</head>
+<body style>
+
+  <div class="container-fluid vh-100 " style="overflow:hidden;">
+    <div class="row h-100">
+      <!-- Small Column -->
+      <div class="col-sm-3 small-column shadow-sm  bg-body-tertiary rounded">
+        <div class="row align-items-center">
+          <div class="col-auto mt-4">
+            <img src="image/eg.jpg" alt="Image" class="img-fluid mr-2" width="30" height="30">
+          </div>
+          <div class="col mt-4">
+            <h5 class="text-muted">Legal Solution</h5>
+          </div>
+        </div>
+        <hr class="line border-bottom-dark shadow-sm " style="border-width: 2px;" >
+  
+        <div class="py-3">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+            </svg>
+            <span style="margin-left: 15px;">Home</span>
+        </div>
+        <div class="mt-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+              
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+              
+            </svg>
+            <span style="margin-left: 15px;">Registration</span>
+        </div>
+        <div class="mt-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+              <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+            
+          </svg>
+          <span style="margin-left: 15px;">Calander</span>
+      </div>
+      <div class="mt-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+              <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+              <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+          </svg>
+          <span style="margin-left: 15px;">Overview</span>
+      </div>
+
+
+
+     
+<!--*****Notification***** -->
+      <div class="mt-5 " style="margin-top: 320px !important">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
+        </svg>
+        <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <span style="margin-left: 3px;">Notification</span>
+    </button>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Notification</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+              <p class="text-primary">Mark all as read(3)</p>
+              <p>Today</p>
+              <span style="display: inline;">
+                <h6 style="display:inline" class="text-dark">Overdue Registration</h6>
+                <p style="display: inline; margin-left: 5px;" class="text-muted">-CK324</p>
+                <p class="text-muted">A time registration made on <br>23.11.2023 needs to be registered</p>
+                <hr>
+            </span>
+            </div>
+            <div class="modal-body">
+              <h6>23.11.2023</h6>
+              <span style="display: inline;">
+                <h6 style="display: inline;">Draft registration</h6>
+                <p style="display: inline; margin-left: 5px;" class="text-muted">-CK324</p>
+                <p class="text-muted">A time registration as a <br>draft on 29.11.2023 needs to have its <br> information added</p>
+            </span>
+            </div>
+            <div class="modal-body">
+              <span style="display: inline;">
+                <h6 style="display: inline;">Draft registration</h6>
+                <p style="display: inline; margin-left: 5px;" class="text-muted">-CK324</p>
+                <p class="text-muted">A time registration as a <br>draft on 29.11.2023 needs to have its <br> information added</p>
+            </span>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="mt-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+</svg>
+      <span style="margin-left: 15px;">Your Name</span>
+  </div>
+            
+        </div>
+      </div>
+      <!-- Big Column -->
+      <div class="col-sm-9 big-column">
+        <div class="position-relative">
+            <div class="row g-5 mb-4 mt-2">
+                <div class="col-sm-7">
+                    15.11.2023
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="btn btn-outline-dark form-control custom-border" aria-label="Add New">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus me-2" viewBox="0 0 16 16" >
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                      </svg>
+                      Add New
+                  </button>
+              </div>
+              
+              <div class="col-sm">
+                <button type="button" class="btn btn-dark form-control d-flex align-items-center justify-content-center" aria-label="Start Timer">
+                Start Timer
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle-fill ms-2" viewBox="0 0 16 16" >
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+                </svg>
+                    
+                </button>
+            </div>
+            
+              
+            </div>
+            <img src="image\bubble.jpg" alt="Image" style="width: 100%; height: 220px; filter: blur(5px);">
+    
+            <div class="position-absolute start-0">
+              <div>
+                  <h4 class="text-dark" style="margin-top: -218px;">Total Hours December</h4>
+                  <p class="text-dark">
+                      <div style="display: flex; align-items: center;">
+                          <strong style="margin-right: 10px;">116,30</strong> /240
+                          <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 5px; flex-grow: 1;">
+                              <div class="progress-bar" style="width: 15%;"></div>
+                          </div>
+                      </div>
+                  </p>
+                  <hr class="text-dark my-4" style="width: 100%; border-width: 2px; text-align: center;">
+          
+                  <div style="display: flex; align-items: center; justify-content: space-between;">
+                      <p style="margin-right: 740px;">Billable hours</p>
+                      <p>11,630</p>
+                  </div>
+          
+                  <div style="display: flex; align-items: center;">
+                      <p style="margin-right: 10px;">Nonbillable hours</p>
+                      <p style="margin-left: auto;">00,000</p>
+                  </div>
+              </div>
+          </div>
+        
+          <div style="display: inline;">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <p style="margin-left: 150px;">All</p>
+                </div>
+                <div class="col-4">
+                    <p style="margin-left: 100px;">Register</p>
+                </div>
+                <div class="col-4">
+                    <p style="margin-left: 100px;">Drafts</p>
+                </div>
+            </div>
+        </div>
+        <div class="mb-4">
+          <span style="display: inline;">
+            <h4 style="display: inline;" class="ms-3">5,3h </h4>
+            <p style="display: inline; margin-left: 5px;" class="text-muted">/7,5h</p>
+        </span>
+        </div>
+        
+          
+        </div>
+        
+          <div class="row w-100 card ps-2">
+            <div class="col-card col-c">
+               <p style="margin-bottom: 6px; color: rgb(0, 31, 63); font-weight: bold;">13:00-14:15</p>
+                <div class="d-flex justify-content-between">
+                <div class="d-inline">
+                  <span style="margin-bottom: 6px; color: rgb(212, 168, 104);">Missing Information</span>
+                </div>
+                <div class=" d-inline ">
+                  <i class="bi bi-exclamation-triangle" style="color:rgb(212, 168, 104) ; margin-right: 15px;"></i>
+                  <span style="font-size: 18px;font-weight: bolder;">01:24</span>
+                </div>
+              </div>
+            </div>
+             
+          </div>
+          
+          <div class="row w-100 card ps-2">
+            <div class="col-card col-c1">
+               <p style="margin-bottom: 6px; color: rgb(0, 31, 63); font-weight: bold;">12:10-12:58/15:40-16:00</p>
+               <p style="margin-bottom: 6px; color: rgb(122, 137, 152);">13446 - O.Jeppesen</p>
+               <div class="d-flex justify-content-between">
+                  <div class="d-inline">
+                    <span style="margin-bottom: 6px; color: rgb(159, 166, 172);">Court Hearing-Being present at c...</span>
+                  </div>
+                  <div class="d-inline">
+                    <span style="font-size: 18px;font-weight: bolder;">01:08</span>
+                  </div>
+               </div>
+               <div class="d-flex justify-content-start">
+                  <div class="d-inline">
+                    <span class="bi bi-file-earmark-plus" style="color:rgb(122, 137, 152) ; margin-right: 10px;"></span>
+                  </div>
+                  <div class="d-inline">
+                    <span style="margin-bottom: 6px; color: rgb(159, 166, 172);">2 Registrations</span>
+                  </div>
+               </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+     
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
